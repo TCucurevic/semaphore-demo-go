@@ -11,5 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - echo "job 1"
+            - export password
+            - export username
       secrets:
         - name: tamara_blog
