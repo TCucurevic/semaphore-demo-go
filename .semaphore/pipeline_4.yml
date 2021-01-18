@@ -1,5 +1,5 @@
 version: v1.0
-name: production
+name: Pipeline 4
 agent:
   machine:
     type: e1-standard-2
@@ -11,10 +11,3 @@ blocks:
         - name: 'Job #1'
           commands:
             - echo "job 1"
-            - echo $password
-            - echo $username
-      secrets:
-        - name: tamara_blog
-promotions:
-  - name: Promotion 1
-    pipeline_file: pipeline_4.yml
