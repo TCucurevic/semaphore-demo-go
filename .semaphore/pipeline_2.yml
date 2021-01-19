@@ -18,3 +18,7 @@ blocks:
 promotions:
   - name: Promotion 1
     pipeline_file: pipeline_4.yml
+status:
+     pipeline_files:
+        - path: ".semaphore/pipeline_2.yml"
+          level: "pipeline"
