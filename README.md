@@ -1,4 +1,4 @@
-https://{tamara-opensource}.semaphoreci.com/badges/{semaphore-demo-go}.svg
+https://tamara-opensource.semaphoreci.com/badges/semaphore-demo-go.svg
 
 # Semaphore demo CI pipeline using Go
 
