@@ -1,4 +1,4 @@
-[![Build Status](https://tamara-opensource.semaphoreci.com/badges/semaphore-demo-go.svg)](https://tamara-opensource.semaphoreci.com/projects/semaphore-demo-go)
+[![Build Status](https://tcucurevic.semaphoreci.com/badges/semaphore-demo-go/branches/master.svg)](https://tcucurevic.semaphoreci.com/projects/semaphore-demo-go)
 
 # Semaphore demo CI pipeline using Go
 
