@@ -17,7 +17,6 @@ blocks:
         - name: make lint
           commands:
             - echo "lint your code"
-            - tamaratest
     dependencies: []
   - name: Unit tests
     task:
