@@ -5,6 +5,7 @@ Semaphore 2.0.
 
 This is Tamara opening a pull request.
 Adding some nonsense to the file.
+Creating Slack notification
 
 ## CI on Semaphore
 
