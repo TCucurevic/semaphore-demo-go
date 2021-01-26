@@ -15,6 +15,7 @@ blocks:
           commands:
             - echo "lint your code"
             - tamaratest
+    dependencies: []
   - name: Unit tests
     task:
       prologue:
@@ -30,6 +31,20 @@ blocks:
         - name: Unit tests 3/3
           commands:
             - echo "run 3/3"
+    dependencies:
+      - Lint
+  - name: 'Block #3'
+    dependencies: []
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands: []
+  - name: 'Block #4'
+    dependencies: []
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands: []
 promotions:
   - name: Deploy to production
     pipeline_file: pipeline_2.yml
