@@ -1,3 +1,5 @@
+https://{tamara-opensource}.semaphoreci.com/badges/{semaphore-demo-go}.svg
+
 # Semaphore demo CI pipeline using Go
 
 This is an example program and CI pipeline showing how to run a Go project on
