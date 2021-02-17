@@ -6,6 +6,7 @@ This is an example program and CI pipeline showing how to run a Go project on
 Semaphore 2.0.
 
 This is Tamara opening a pull request.
+And another PR.
 
 ## CI on Semaphore
 
